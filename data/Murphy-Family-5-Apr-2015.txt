@@ -1,0 +1,150 @@
+0 HEAD
+1 SOUR Family Echo
+2 WWW http://www.familyecho.com/
+1 FILE Murphy Family
+1 DATE 5 APR 2015
+1 DEST ANSTFILE
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SUBM @I1@
+2 NAME Hang Xiong
+1 SUBN
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME A /Murphy/
+2 GIVN A
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX M
+1 NOTE Other contact: Murphy-1001
+1 FAMS @F1@
+0 @I2@ INDI
+1 NAME B01 /Murphy/
+2 GIVN B01
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX M
+1 NOTE Other contact: Murphy-2001
+1 FAMS @F2@
+1 FAMC @F1@
+0 @I3@ INDI
+1 NAME B02 /Murphy/
+2 GIVN B02
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX M
+1 NOTE Other contact: Murphy-2002
+1 FAMS @F3@
+1 FAMC @F1@
+0 @I4@ INDI
+1 NAME B03 /Murphy/
+2 GIVN B03
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX F
+1 NOTE Other contact: Murphy-2003
+1 FAMC @F1@
+0 @I5@ INDI
+1 NAME B04 /Murphy/
+2 GIVN B04
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX M
+1 NOTE Other contact: Murphy-2004
+1 FAMS @F4@
+1 FAMC @F1@
+0 @I6@ INDI
+1 NAME C01 /Murphy/
+2 GIVN C01
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX M
+1 NOTE Other contact: Murphy-3001
+1 FAMC @F2@
+0 @I7@ INDI
+1 NAME C02 /Murphy/
+2 GIVN C02
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX M
+1 NOTE Other contact: Murphy-3002
+1 FAMC @F2@
+0 @I8@ INDI
+1 NAME C03 /Murphy/
+2 GIVN C03
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX M
+1 NOTE Other contact: Murphy-3003
+1 FAMC @F3@
+0 @I9@ INDI
+1 NAME C04 /Murphy/
+2 GIVN C04
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX M
+1 NOTE Other contact: Murphy-3004
+1 FAMC @F3@
+0 @I10@ INDI
+1 NAME C05 /Murphy/
+2 GIVN C05
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX F
+1 NOTE Other contact: Murphy-3005
+1 FAMC @F3@
+0 @I11@ INDI
+1 NAME C06 /Murphy/
+2 GIVN C06
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX M
+1 NOTE Other contact: Murphy-3006
+1 FAMC @F3@
+0 @I12@ INDI
+1 NAME C07 /Murphy/
+2 GIVN C07
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX M
+1 NOTE Other contact: Murphy-3007
+1 FAMC @F4@
+0 @I13@ INDI
+1 NAME C08 /Murphy/
+2 GIVN C08
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX F
+1 NOTE Other contact: Murphy-3008
+1 FAMC @F4@
+0 @I14@ INDI
+1 NAME C09 /Murphy/
+2 GIVN C09
+2 SURN Murphy
+2 _MARNM Murphy
+1 SEX F
+1 NOTE Other contact: Murphy-3009
+1 FAMC @F4@
+0 @F1@ FAM
+1 HUSB @I1@
+1 CHIL @I2@
+1 CHIL @I3@
+1 CHIL @I4@
+1 CHIL @I5@
+0 @F2@ FAM
+1 HUSB @I2@
+1 CHIL @I6@
+1 CHIL @I7@
+0 @F3@ FAM
+1 HUSB @I3@
+1 CHIL @I8@
+1 CHIL @I9@
+1 CHIL @I10@
+1 CHIL @I11@
+0 @F4@ FAM
+1 HUSB @I5@
+1 CHIL @I12@
+1 CHIL @I13@
+1 CHIL @I14@
+0 TRLR

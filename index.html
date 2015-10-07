@@ -1,0 +1,153 @@
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title>
+            Kinship Adjacency Matrix Creater
+        </title>
+        <link href="css/style.css" rel="stylesheet" charset="utf-8" />
+        <script src="js/jquery-2.1.3.min.js" language="javascript" charset="utf-8">
+        </script>
+        <script src="js/object.js" language="javascript" charset="utf-8">
+        </script>
+        <script src="js/address.js" language="javascript" charset="utf-8">
+        </script>
+        <script src="js/genealogy.js" language="javascript" charset="utf-8">
+        </script>
+        <script src="js/hashmap.js" language="javascript" charset="utf-8">
+        </script>
+        <script src="js/genealogicaltree.js" language="javascript" charset="utf-8">
+        </script>
+        <script src="js/constant.js" language="javascript" charset="utf-8">
+        </script>
+        <script src="js/convertor.js" language="javascript" charset="utf-8">
+        </script>
+        <script src="js/affinity.js" language="javascript" charset="utf-8">
+        </script>
+        <script src="js/store.js" language="javascript" charset="utf-8">
+        </script>
+        <script src="js/model.js" language="javascript" charset="utf-8">
+        </script>
+        <script src="js/algorithm.js" language="javascript" charset="utf-8">
+        </script>
+    </head>
+    
+    <body>
+        <div class="div_container">
+            <div class="div_title">
+            <b>Kinship Adjacency Matrix Generator</b>
+            </div>
+            <div class="div_controler">
+                <div class="div_description">
+                    Import Original Data
+                </div>
+                <div class="div_file">
+                    <input id="addressFile" type="file">
+                    <input id="btnAddress" type="button" value="Import Address">
+                </div>
+                <div class="div_file">
+                    <input id="genealogyFile" type="file">
+                    <input id="btnGenealogy" type="button" value="Import Family Tree">
+                </div>
+                <div class="div_file">
+                    <input id="affinityFile" type="file">
+                    <input id="btnAffinity" type="button" value="Import Marriage Record">
+                </div>
+            </div>
+            <div class="div_controler">
+                <div class="div_description">
+                    Set Parameters
+                </div>
+                <div class="div_table">
+                    <center>
+                        <table>
+                            <tr>
+                                <td>
+                                    Algorithm:
+                                </td>
+                                <td>
+                                    <select id="selLaw">
+                                        <option value="0">
+                                            Canon Law
+                                        </option>
+                                        <option value="1">
+                                            Roman law
+                                        </option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Decay Coefficient of Consanguinity:
+                                </td>
+                                <td>
+                                    <input id="txtGeneCoeff" type="text" class="textbox" value="0.5">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Decay Coefficient of Affinity:
+                                </td>
+                                <td>
+                                    <input id="txtAffiCoeff" type="text" class="textbox" value="0.5">
+                                </td>
+                            </tr>
+                        </table>
+                    </center>
+                </div>
+            </div>
+            <div class="div_controler">
+                <div class="div_block">
+                    <div class="div_description">
+                        Select the Family and Its Members
+                    </div>
+                    <div class="div_file">
+                        <div class="div_select">
+                            Level I:
+                            <select id="selVillage">
+                                <option value="0">
+                                    All
+                                </option>
+                            </select>
+                        </div>
+                        <div class="div_select">
+                            Level II:
+                            <select id="selGroup">
+                                <option value="0">
+                                    All
+                                </option>
+                            </select>
+                        </div>
+                        <div class="div_select">
+                            Family:
+                            <select id="selGenealogy">
+                                <option value="0">
+                                    All
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                    <div class="div_subdescription">
+                        Members in the family are displayed below
+                    </div>
+                    <br/>
+                    <div class="div_content">
+                        <div id="divMember">
+                        </div>
+                    </div>
+                    <div class="div_file">
+                        <input id="btnSelectAll" type="button" value="Select All">
+                        <input id="btnCleanAll" type="button" value="Clean All">
+                        <input id="btnSave" type="button" value="Save">
+                        <input id="btnGenerate" type="button" value="Generate">
+                    </div>
+                </div>
+            </div>
+			<div class="div_developer">Developed by Hang Xiong and Pin Xiong</div>
+                        <div class="div_affiliation">Dynamics Lab, University College Dublin</div>
+        </div>
+    </body>
+
+</html>

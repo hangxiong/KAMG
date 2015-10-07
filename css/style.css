@@ -1,0 +1,138 @@
+.div_container{
+	width:999px;
+	margin: 0 auto;
+	height:100%;
+}
+.div_title{
+text-align:center;
+	font-size:32px;
+padding-top:40px;
+        padding-bottom:60px;
+}
+.div_controler{
+	width:100%;
+	height:auto;
+	margin:auto;
+	border: 1px solid #696;
+	text-align: center;
+	-webkit-border-radius: 8px;
+	-moz-border-radius:8px; 
+	border-radius: 8px;
+	-webkit-box-shadow: #CCCCCC 0px 0px 10px;
+	-moz-box-shadow:#CCCCCC 0px 0px 10px;
+	box-shadow: #CCCCCC 0px 0px 10px;
+	background: #EFEFEF;
+	margin-bottom:10px;
+	padding:10px 10px 15px 10px;
+}
+
+.div_block{
+	height:auto;
+	text-align:center;
+}
+
+.div_description{
+	text-align:center;
+	font-size:22px;
+        padding-bottom:24px;
+}
+
+.div_file{
+	height:auto;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.div_file input[type="file"]{
+	height:35px;
+	width:500px;
+}
+
+.div_file input[type="button"]{
+	height:35px;
+	width:180px;
+	text-align:center;
+}
+
+.div_file select{
+	height:35px;
+	width:180px;
+	text-align:center;
+}
+
+.div_file input[type="text"]{
+	height:35px;
+	width:180px;
+	text-align:center;
+}
+
+.div_select{
+	float:left;
+	width:33%;
+	margin: 0 auto;
+}
+
+.div_table{
+	margin:0 auto;
+	width:80%;
+}
+
+.div_table table{
+	width:560px;
+}
+.div_table table td{
+	width:50%;
+	text-align:left;
+	height:35px;
+}
+
+.div_table select{
+	width:200px;
+	height:35px;
+	text-align:center;
+}
+
+.div_table input[type="text"]{
+	height:35px;
+	width:200px;
+	text-align:center;
+}
+
+.div_select select{
+	width:200px;
+	text-align:center;
+}
+
+.div_subdescription{
+	text-align:center;
+	font-size:18px;
+        padding-top:20px;
+}
+
+.div_content{
+	margin:0 auto;
+	width:90%;
+	border:1px solid #CCCCCC;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+
+#divMember{
+	padding:10px;
+	text-align:left;
+}
+
+.div_developer{
+        padding-top:30px;
+	text-align:center;
+}
+.div_supervisor{
+        padding-top:5px;
+	text-align:center;
+}
+.div_affiliation{
+        padding-top:5px;
+	text-align:center;
+}

@@ -1,0 +1,148 @@
+0 HEAD
+1 SOUR Family Echo
+2 WWW http://www.familyecho.com/
+1 FILE Payne Family
+1 DATE 5 APR 2015
+1 DEST ANSTFILE
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SUBM @I1@
+2 NAME Hang Xiong
+1 SUBN
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME B01 /Payne/
+2 GIVN B01
+2 SURN Payne
+2 _MARNM Payne
+1 SEX M
+1 NOTE Other contact: Payne-2001
+1 FAMS @F2@
+1 FAMC @F1@
+0 @I2@ INDI
+1 NAME C01 /Payne/
+2 GIVN C01
+2 SURN Payne
+2 _MARNM Payne
+1 SEX M
+1 NOTE Other contact: Payne-3001
+1 FAMS @F3@
+1 FAMC @F2@
+0 @I3@ INDI
+1 NAME C02 /Payne/
+2 GIVN C02
+2 SURN Payne
+2 _MARNM Payne
+1 SEX F
+1 NOTE Other contact: Payne-3002
+1 FAMC @F2@
+0 @I4@ INDI
+1 NAME D01 /Payne/
+2 GIVN D01
+2 SURN Payne
+2 _MARNM Payne
+1 SEX M
+1 NOTE Other contact: Payne-4001
+1 FAMC @F3@
+0 @I5@ INDI
+1 NAME A /Payne/
+2 GIVN A
+2 SURN Payne
+2 _MARNM Payne
+1 SEX M
+1 NOTE Other contact: Payne-1001
+1 FAMS @F1@
+0 @I6@ INDI
+1 NAME B02 /Payne/
+2 GIVN B02
+2 SURN Payne
+2 _MARNM Payne
+1 SEX M
+1 NOTE Other contact: Payne-2002
+1 FAMS @F4@
+1 FAMC @F1@
+0 @I7@ INDI
+1 NAME C03 /Payne/
+2 GIVN C03
+2 SURN Payne
+2 _MARNM Payne
+1 SEX M
+1 NOTE Other contact: Payne-3003
+1 FAMS @F5@
+1 FAMC @F4@
+0 @I8@ INDI
+1 NAME C04 /Payne/
+2 GIVN C04
+2 SURN Payne
+2 _MARNM Payne
+1 SEX M
+1 NOTE Other contact: Payne-3004
+1 FAMS @F6@
+1 FAMC @F4@
+0 @I9@ INDI
+1 NAME D02 /Payne/
+2 GIVN D02
+2 SURN Payne
+2 _MARNM Payne
+1 SEX M
+1 NOTE Other contact: Payne-4002
+1 FAMC @F3@
+0 @I10@ INDI
+1 NAME D03 /Payne/
+2 GIVN D03
+2 SURN Payne
+2 _MARNM Payne
+1 SEX M
+1 NOTE Other contact: Payne-4003
+1 FAMC @F5@
+0 @I11@ INDI
+1 NAME D04 /Payne/
+2 GIVN D04
+2 SURN Payne
+2 _MARNM Payne
+1 SEX F
+1 NOTE Other contact: Payne-4004
+1 FAMC @F5@
+0 @I12@ INDI
+1 NAME D05 /Payne/
+2 GIVN D05
+2 SURN Payne
+2 _MARNM Payne
+1 SEX M
+1 NOTE Other contact: Payne-4005
+1 FAMC @F6@
+0 @I13@ INDI
+1 NAME D06 /Payne/
+2 GIVN D06
+2 SURN Payne
+2 _MARNM Payne
+1 SEX M
+1 NOTE Other contact: Payne-4006
+1 FAMC @F6@
+0 @F1@ FAM
+1 HUSB @I5@
+1 CHIL @I1@
+1 CHIL @I6@
+1 _CURRENT N
+0 @F2@ FAM
+1 HUSB @I1@
+1 CHIL @I2@
+1 CHIL @I3@
+0 @F3@ FAM
+1 HUSB @I2@
+1 CHIL @I4@
+1 CHIL @I9@
+0 @F4@ FAM
+1 HUSB @I6@
+1 CHIL @I7@
+1 CHIL @I8@
+0 @F5@ FAM
+1 HUSB @I7@
+1 CHIL @I10@
+1 CHIL @I11@
+0 @F6@ FAM
+1 HUSB @I8@
+1 CHIL @I12@
+1 CHIL @I13@
+0 TRLR

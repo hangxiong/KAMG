@@ -1,0 +1,131 @@
+0 HEAD
+1 SOUR Family Echo
+2 WWW http://www.familyecho.com/
+1 FILE Xiong Family
+1 DATE 5 APR 2015
+1 DEST ANSTFILE
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SUBM @I1@
+2 NAME Hang Xiong
+1 SUBN
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Hang /Xiong/
+2 GIVN Hang
+2 SURN Xiong
+2 _MARNM Xiong
+1 SEX M
+1 NOTE Other contact: Xiong-3001
+1 FAMS @F6@
+1 FAMC @F1@
+0 @I2@ INDI
+1 NAME S.Qing /Xiong/
+2 GIVN S.Qing
+2 SURN Xiong
+2 _MARNM Xiong
+1 SEX M
+1 NOTE Other contact: Xiong-2001
+1 FAMS @F1@
+1 FAMS @F4@
+1 FAMC @F2@
+0 @I3@ INDI
+1 NAME C.Kai /Xiong/
+2 GIVN C.Kai
+2 SURN Xiong
+2 _MARNM Xiong
+1 SEX M
+1 NOTE Other contact: Xiong-1001
+1 FAMS @F2@
+1 FAMS @F3@
+0 @I4@ INDI
+1 NAME S.Hua /Xiong/
+2 GIVN S.Hua
+2 SURN Xiong
+2 _MARNM Xiong
+1 SEX M
+1 NOTE Other contact: Xiong-2002
+1 FAMS @F5@
+1 FAMC @F3@
+0 @I5@ INDI
+1 NAME S.Lan /Xiong/
+2 GIVN S.Lan
+2 SURN Xiong
+2 _MARNM Xiong
+1 SEX F
+1 NOTE Other contact: Xiong-2003
+1 FAMC @F3@
+0 @I6@ INDI
+1 NAME S.Chun /Xiong/
+2 GIVN S.Chun
+2 SURN Xiong
+2 _MARNM Xiong
+1 SEX F
+1 NOTE Other contact: Xiong-2004
+1 FAMC @F3@
+0 @I7@ INDI
+1 NAME Pin /Xiong/
+2 GIVN Pin
+2 SURN Xiong
+2 _MARNM Xiong
+1 SEX M
+1 NOTE Other contact: Xiong-3002
+1 FAMC @F4@
+0 @I8@ INDI
+1 NAME Hui /Xiong/
+2 GIVN Hui
+2 SURN Xiong
+2 _MARNM Xiong
+1 SEX M
+1 NOTE Other contact: Xiong-3003
+1 FAMC @F4@
+0 @I9@ INDI
+1 NAME Kuan /Xiong/
+2 GIVN Kuan
+2 SURN Xiong
+2 _MARNM Xiong
+1 SEX M
+1 NOTE Other contact: Xiong-3004
+1 FAMC @F5@
+0 @I10@ INDI
+1 NAME Hao /Xiong/
+2 GIVN Hao
+2 SURN Xiong
+2 _MARNM Xiong
+1 SEX M
+1 NOTE Other contact: Xiong-3005
+1 FAMC @F5@
+0 @I11@ INDI
+1 NAME H.Lai /Xiong/
+2 GIVN H.Lai
+2 SURN Xiong
+2 _MARNM Xiong
+1 SEX F
+1 NOTE Other contact: Xiong-4001
+1 FAMC @F6@
+0 @F1@ FAM
+1 HUSB @I2@
+1 CHIL @I1@
+1 _CURRENT N
+0 @F2@ FAM
+1 HUSB @I3@
+1 CHIL @I2@
+1 _CURRENT N
+0 @F3@ FAM
+1 HUSB @I3@
+1 CHIL @I4@
+1 CHIL @I5@
+1 CHIL @I6@
+0 @F4@ FAM
+1 HUSB @I2@
+1 CHIL @I7@
+1 CHIL @I8@
+0 @F5@ FAM
+1 HUSB @I4@
+1 CHIL @I9@
+1 CHIL @I10@
+0 @F6@ FAM
+1 HUSB @I1@
+1 CHIL @I11@
+0 TRLR

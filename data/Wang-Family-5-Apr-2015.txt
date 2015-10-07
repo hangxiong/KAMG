@@ -1,0 +1,182 @@
+0 HEAD
+1 SOUR Family Echo
+2 WWW http://www.familyecho.com/
+1 FILE Wang Family
+1 DATE 5 APR 2015
+1 DEST ANSTFILE
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SUBM @I1@
+2 NAME Hang Xiong
+1 SUBN
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME X.Mei /Wang/
+2 GIVN X.Mei
+2 SURN Wang
+2 _MARNM Wang
+1 SEX F
+1 NOTE Other contact: Wang-3001
+1 FAMC @F1@
+0 @I2@ INDI
+1 NAME C.Yi /Wang/
+2 GIVN C.Yi
+2 SURN Wang
+2 _MARNM Wang
+1 SEX M
+1 NOTE Other contact: Wang-2001
+1 FAMS @F1@
+1 FAMS @F3@
+1 FAMC @F2@
+0 @I3@ INDI
+1 NAME X.Lian /Wang/
+2 GIVN X.Lian
+2 SURN Wang
+2 _MARNM Wang
+1 SEX F
+1 NOTE Other contact: Wang-3002
+1 FAMC @F3@
+0 @I4@ INDI
+1 NAME X.You /Wang/
+2 GIVN X.You
+2 SURN Wang
+2 _MARNM Wang
+1 SEX M
+1 NOTE Other contact: Wang-3003
+1 FAMS @F4@
+1 FAMC @F3@
+0 @I5@ INDI
+1 NAME X.Fu /Wang/
+2 GIVN X.Fu
+2 SURN Wang
+2 _MARNM Wang
+1 SEX M
+1 NOTE Other contact: Wang-3004
+1 FAMS @F5@
+1 FAMC @F3@
+0 @I6@ INDI
+1 NAME Y.Ming /Wang/
+2 GIVN Y.Ming
+2 SURN Wang
+2 _MARNM Wang
+1 SEX F
+1 NOTE Other contact: Wang-4001
+1 FAMC @F4@
+0 @I7@ INDI
+1 NAME R.Pei /Wang/
+2 GIVN R.Pei
+2 SURN Wang
+2 _MARNM Wang
+1 SEX F
+1 NOTE Other contact: Wang-4002
+1 FAMC @F5@
+0 @I8@ INDI
+1 NAME ZengZu /Wang/
+2 GIVN ZengZu
+2 SURN Wang
+2 _MARNM Wang
+1 SEX M
+1 NOTE Other contact: Wang-1000
+1 FAMS @F2@
+1 FAMS @F6@
+0 @I9@ INDI
+1 NAME C.Xiao /Wang/
+2 GIVN C.Xiao
+2 SURN Wang
+2 _MARNM Wang
+1 SEX M
+1 NOTE Other contact: Wang-2002
+1 FAMS @F7@
+1 FAMC @F6@
+0 @I10@ INDI
+1 NAME G.Mei /Wang/
+2 GIVN G.Mei
+2 SURN Wang
+2 _MARNM Wang
+1 SEX F
+1 NOTE Other contact: Wang-3005
+1 FAMC @F7@
+0 @I11@ INDI
+1 NAME A.Mei /Wang/
+2 GIVN A.Mei
+2 SURN Wang
+2 _MARNM Wang
+1 SEX F
+1 NOTE Other contact: Wang-3006
+1 FAMC @F7@
+0 @I12@ INDI
+1 NAME X.Jin /Wang/
+2 GIVN X.Jin
+2 SURN Wang
+2 _MARNM Wang
+1 SEX M
+1 NOTE Other contact: Wang-3007
+1 FAMS @F8@
+1 FAMC @F7@
+0 @I13@ INDI
+1 NAME Xia /Wang/
+2 GIVN Xia
+2 SURN Wang
+2 _MARNM Wang
+1 SEX F
+1 NOTE Other contact: Wang-4003
+1 FAMC @F8@
+0 @I14@ INDI
+1 NAME Ju /Wang/
+2 GIVN Ju
+2 SURN Wang
+2 _MARNM Wang
+1 SEX F
+1 NOTE Other contact: Wang-4004
+1 FAMC @F8@
+0 @I15@ INDI
+1 NAME Qin /Wang/
+2 GIVN Qin
+2 SURN Wang
+2 _MARNM Wang
+1 SEX F
+1 NOTE Other contact: Wang-4005
+1 FAMC @F8@
+0 @I16@ INDI
+1 NAME Yong /Wang/
+2 GIVN Yong
+2 SURN Wang
+2 _MARNM Wang
+1 SEX M
+1 NOTE Other contact: Wang-4006
+1 FAMC @F8@
+0 @F1@ FAM
+1 HUSB @I2@
+1 CHIL @I1@
+1 _CURRENT N
+0 @F2@ FAM
+1 HUSB @I8@
+1 CHIL @I2@
+1 _CURRENT N
+0 @F3@ FAM
+1 HUSB @I2@
+1 CHIL @I3@
+1 CHIL @I4@
+1 CHIL @I5@
+0 @F4@ FAM
+1 HUSB @I4@
+1 CHIL @I6@
+0 @F5@ FAM
+1 HUSB @I5@
+1 CHIL @I7@
+0 @F6@ FAM
+1 HUSB @I8@
+1 CHIL @I9@
+0 @F7@ FAM
+1 HUSB @I9@
+1 CHIL @I10@
+1 CHIL @I11@
+1 CHIL @I12@
+0 @F8@ FAM
+1 HUSB @I12@
+1 CHIL @I13@
+1 CHIL @I14@
+1 CHIL @I15@
+1 CHIL @I16@
+0 TRLR
