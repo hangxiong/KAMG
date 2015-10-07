@@ -1,1 +1,1 @@
-Kinship Adjacency Matrix Generator is a tool for converting the family tree in GEDCOM files into adjacency matrices.
+Kinship Adjacency Matrix Generator (KAMG) is a browser-based software tool for creating adjacency matrices for kinship ties.
