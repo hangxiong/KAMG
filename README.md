@@ -12,7 +12,9 @@ CONTENTS OF THIS FILE
 
 INTRODUCTION
 --------------
-Kinship Adjacency Matrix Generator (KAMG) is a browser-based software tool for creating adjacency matrices for kinship ties. It is coded in JaveScript. The present version is 1.0. 
+Kinship Adjacency Matrix Generator (KAMG) is a browser-based software tool for creating adjacency matrices of kinship networks. It uses family trees in the format of GEDCOM file and the records of marriages as inputs. ties. It generates adjacency matrices in the format of CSV files as outputs. It can deal with both blood relationship (based on birth) and affinity relationship (based on marriages).
+
+It is coded in JaveScript. The present version is 1.0. 
 
 
 INSTALLATION
