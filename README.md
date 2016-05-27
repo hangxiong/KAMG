@@ -52,6 +52,10 @@ Belfield Geary Murphy Murphy-3007 OakTree Rooster Wang Wang-4005
 
 Each piece of intermarriage record should be placed in a line. Intermarriage records should be stored in a text file. 
 
+- Missing Data
+
+KAMG in the current version is not able to deal with missing data. Missing information in family’s address or GEDCOM files will thus lead to dysfunction of it or inaccurate outcomes. 
+
 
 CONFIGURATION
 --------------
