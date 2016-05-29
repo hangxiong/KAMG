@@ -19,7 +19,7 @@ It is coded in JaveScript. The present version is 1.0.
 
 INSTALLATION
 --------------
-KAMG a portable application that runs on web browsers (only IE browsers for the present version). It can be stared by opening the "index.html" file.
+This software replies on the ActiveX plugin of web browser for importing and exporting data. It therefore can only function properly on web browsers that allow the ActiveX plugin to run, typically Internet Explorer 6 to 10. It is ready for use by opening the "index.html" file.
 
 
 REQUIREMENTS
